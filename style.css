@@ -1,0 +1,27 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+
+#gameCanvas {
+  border: 2px solid white;
+  margin-top: 20px;
+}
+
+#scoreboard {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input, button {
+  padding: 5px;
+  margin-top: 10px;
+}
